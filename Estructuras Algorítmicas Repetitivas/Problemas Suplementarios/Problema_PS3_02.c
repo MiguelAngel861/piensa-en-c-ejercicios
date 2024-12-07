@@ -3,7 +3,7 @@
 int main(void)
 {
     int N;
-    float Suma, m;
+    float Suma;
 
     printf("Ingrese un numero:");
                 scanf("%i", &N);
