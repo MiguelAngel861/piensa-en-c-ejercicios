@@ -3,14 +3,15 @@
 
 int main(void)
 {
-        int Valor_Serie;
-        float Factorial, Divisor;
+        int N;
+        float exponent, valor_Sin;
+        float valor_Factorial, Divisor = 0.0;
 
-        
+        printf("Ingresa el valor de 'x': ");
+        scanf("%d", &N);
 
-        while (Valor_Serie )
-        {
-                /* code */
-        }
+        printf("Ingresa el numero de terminos de la serie: ");
+        scanf("%d", &N);
         
+        return 0;
 }
