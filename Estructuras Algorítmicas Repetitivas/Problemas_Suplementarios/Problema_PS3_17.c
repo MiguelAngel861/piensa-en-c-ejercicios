@@ -25,7 +25,6 @@ int main(void)
                 //Imprime números ascendentes
                 for (int k = i - 1 ; k >= 1; k--) {
                         printf("%d ", k);
-
                 }
 
                 putchar('\n');
