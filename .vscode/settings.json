@@ -1,3 +1,7 @@
 {
-    "window.restoreFullscreen": true
+    "window.restoreFullscreen": true,
+    "files.associations": {
+        "*.c": "c",
+        "stdio.h": "c"
+    }
 }
