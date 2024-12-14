@@ -45,7 +45,7 @@ int main(void)
         case 3:
             CON = VAL * 1.60934;
 
-            printf("%i millas son %.2f kilometros\n", CON);
+            printf("%i millas son %.2f kilometros\n",VAL, CON);
         break;
 
         default:

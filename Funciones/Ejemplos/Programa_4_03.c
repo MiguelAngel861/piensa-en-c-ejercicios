@@ -6,7 +6,7 @@ void f1(void); /* Prototipo de función. */
 
 int K = 5; /* Variable global. */
 
-void main (void)
+int main (void)
 {
         int I;
 
@@ -22,7 +22,7 @@ void f1(void) /* La función utiliza tanto la variable local I como la variable 
 
         printf("\n\nEl valor de la variable local es: %d", K);
         
-        ::K = ::K + K; /* Uso de ambas variables. */
+        ::K = ::K + K; /* Uso de ambas variables. (Solo funciona en C++) */
         
         printf("\nEl valor de la variable global es: %d", ::K);
 }
