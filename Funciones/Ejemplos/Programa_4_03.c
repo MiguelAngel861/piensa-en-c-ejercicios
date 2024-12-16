@@ -6,7 +6,7 @@ void f1(void); /* Prototipo de función. */
 
 int K = 5; /* Variable global. */
 
-int main (void)
+int main(void)
 {
         int I;
 

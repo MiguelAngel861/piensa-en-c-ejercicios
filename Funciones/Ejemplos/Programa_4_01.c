@@ -7,7 +7,8 @@ global, aunque esto, como veremos más adelante, no es muy recomendable. */
 
 int cubo(void); /* Prototipo de función. */
 int I; /* Variable global. */
-void main(void)
+
+int main(void)
 {
         int CUB;
         for (I = 1; I <= 10; I++) {
