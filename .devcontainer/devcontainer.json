@@ -10,7 +10,8 @@
 				"ms-vscode.cpptools",
 				"adpyke.codesnap",
 				"jdinhlife.gruvbox",
-				"vadimcn.vscode-lldb"
+				"vadimcn.vscode-lldb",
+				"mathematic.vscode-pdf"
 			]
 		}
 	}
