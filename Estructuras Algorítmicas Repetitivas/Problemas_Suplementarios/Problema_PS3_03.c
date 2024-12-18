@@ -1,17 +1,22 @@
 #include <stdio.h>
 
-int main(void)
-{
-    int N;
-    float Serie = 1.0;
+int main(void) {
 
-    printf("Ingrese un numero: ");
-    scanf("%i", &N);
+        int NUM;
+        double resultado = 1.0;
 
-    for (int i = 1; i <= N; i++)
-    {
-        Serie *= (float) (1.0 / i) / (1.0 / i + 1.0);
-        printf("%.2f\n", Serie);
-    }
-    return 0;
+        printf("Ingrese el número de términos: ");
+        scanf("%d", &NUM);
+
+        for (int i = 1; i <= NUM; i++) {
+                if (i % 2 == 0) {
+                        resultado *= (1.0 / i); // Multiplicar en términos pares
+                } else {
+                        resultado /= (1.0 / i); // Dividir en términos impares
+                }
+        }
+
+        printf("El resultado de la serie es: %lf\n", resultado);
+
+        return 0;
 }
