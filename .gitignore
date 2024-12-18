@@ -1,2 +1,4 @@
-/.vscode
-/.devcontainer
+# Ignorar carpetas personales
+
+/.vscode/
+/.devcontainer/
