@@ -9,34 +9,38 @@
 
 #include <stdio.h>
 
-float calculo_de_serie(int numero);
+// Prototipo de función
+float calcularSerie(int numeroDeTerminos);
 
 int main(void)
 {
-        int NUM;
-        double res;
+    int NUM;
+    double resultado;
 
-        printf("Ingrese el número de términos: ");
-        scanf("%d", &NUM);
+    // Solicitar al usuario el número de términos de la serie
+    printf("Ingrese el número de términos: ");
+    scanf("%d", &NUM);
 
-        res = calculo_de_serie(NUM);
+    resultado = calcularSerie(NUM);
 
-        printf("El resultado de la serie es: %lf\n", res);
+    printf("El resultado de la serie es: %lf\n", resultado);
 
-        return 0;
+    return 0;
 }
 
-float calculo_de_serie(int numero)
+// Función para calcular el resultado de la serie
+float calcularSerie(int numeroDeTerminos)
 {
-        float resultado = 1.0;
+    float resultado = 1.0;
 
-        for (int i = 1; i <= numero; i++) {
-                if (i % 2 == 0)
-                                resultado *= (float) (1.0 / i); // Multiplicar en términos pares
+    for (int i = 1; i <= numeroDeTerminos; i++) {
+        if (i % 2 == 0) {
+            resultado *= (1.0 / i);
 
-                else
-                                resultado /= (float) (1.0 / i); // Dividir en términos impares
+        } else {
+            resultado /= (1.0 / i);
         }
+    }
 
-        return resultado;
+    return resultado;
 }
