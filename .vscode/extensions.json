@@ -1,5 +1,12 @@
 {
     "recommendations": [
-        "usernamehw.errorlens"
+        "ms-vscode.hexeditor",
+        "usernamehw.errorlens",
+        "miguelsolorio.fluent-icons",
+        "miguelsolorio.symbols",
+        "ms-vscode.cpptools",
+        "adpyke.codesnap",
+        "jdinhlife.gruvbox",
+        "vadimcn.vscode-lldb"
     ]
 }
