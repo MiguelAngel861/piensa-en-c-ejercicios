@@ -55,7 +55,7 @@ void Frecuencia(int A[], int P, int B[], int T)
         int I;
 
         for  (I = 0; I < P; I++) {
-                if ((A[I] >= 0) && (A[I] < 6)) /* Se valida que la calificación seacorrecta. */
+                if ((A[I] >= 0) && (A[I] < T)) /* Se valida que la calificación sea correcta. */
                         B[A[I]]++; /* Observa la forma de almacenar e incrementar las frecuencias. */
         }
 }
