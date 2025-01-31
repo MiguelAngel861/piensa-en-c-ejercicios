@@ -30,7 +30,6 @@
                         "label": "C/C++: gcc compilar archivo activo",
                         "command": "/usr/bin/gcc",
                         "args": [
-                                "-std=c89",
                                 "-Wall",
                                 "-Wextra",
                                 "-Wmain",
