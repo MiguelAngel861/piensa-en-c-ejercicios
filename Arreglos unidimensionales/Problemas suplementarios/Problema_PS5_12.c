@@ -5,3 +5,5 @@
  * 
  * Dato: VEC[N] (arreglo unidimensional de tipo entero de N elementos, 1 ≤ N ≤ 100).
  */
+
+ //este menos

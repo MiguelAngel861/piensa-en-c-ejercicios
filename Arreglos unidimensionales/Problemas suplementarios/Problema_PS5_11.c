@@ -4,3 +4,5 @@
  * los divisores, excepto él mismo, es igual al propio número. El 6, por por
  * ejemplo, es un número perfecto.
  */
+
+ //no vale la pena hacer este ejercicio
