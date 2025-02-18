@@ -42,7 +42,6 @@ int main(void)
 
         printf("\nArreglo numero uno ordenado en forma descendente:\n");
         for (int i = 0; i < N; i++) {
-                
                 printf("%d ", VEC1[i]);
         }
 
