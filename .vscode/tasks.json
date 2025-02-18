@@ -3,33 +3,10 @@
         "tasks": [
                 {
                         "type": "cppbuild",
-                        "label": "C/C++: clang compilar archivo activo",
-                        "command": "/usr/bin/clang",
-                        "args": [
-                                "-fcolor-diagnostics",
-                                "-fansi-escape-codes",
-                                "-Wall",
-                                "-g",
-                                "${file}",
-                                "-o",
-                                "${fileDirname}/${fileBasenameNoExtension}",
-                                "-lm"
-                        ],
-                        "options": {
-                                "cwd": "${fileDirname}"
-                        },
-                        "problemMatcher": [
-                                "$gcc"
-                        ],
-                        "group": "build",
-                        "detail": "compilador: /usr/bin/clang"
-                },
-
-                {
-                        "type": "cppbuild",
                         "label": "C/C++: gcc compilar archivo activo",
-                        "command": "/usr/bin/gcc",
+                        "command": "/usr/bin/gcc-14",
                         "args": [
+                                "-std=c99",
                                 "-Wall",
                                 "-Wextra",
                                 "-Wmain",

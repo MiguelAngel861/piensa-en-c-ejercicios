@@ -7,7 +7,7 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Launch LLDB",
+            "name": "Launch with LLDB",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
             "cwd": "${workspaceFolder}"

@@ -30,12 +30,12 @@ int main(void)
 
         printf("Ingrese la notas de los siguientes %d alumnos:", N);
 
-        for (size_t i = 0; i < N; i++) {
+        for (int i = 0; i < N; i++) {
                 printf("Alumno numero %d", i + 1);
-                scanf("%d", VEC[i]);
+                scanf("%d", &VEC[i]);
         }
 
-        for (size_t i = 0; i < N; i++) {                
+        for (int i = 0; i < N; i++) {                
                 promedio_grupo += VEC[i];
 
                 if (VEC[i] >= 1300) {
